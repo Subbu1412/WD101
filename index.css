@@ -1,0 +1,88 @@
+
+body {
+    text-align: center;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  form {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    text-align: left;
+  }
+  
+  input {
+    width: calc(100% - 20px); /* Adjusted width */
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+  }
+  
+  input[type="checkbox"] {
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  label[for="acceptTerms"] {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #user-entries {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  #user-entries h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #user-entries th, #user-entries td {
+    border: 1px solid #ddd;
+    padding: 12px 20px;
+    text-align: left;
+  }
+  
+  #user-entries th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .acess {
+    text-align: center;
+    color: #333;
+  }
