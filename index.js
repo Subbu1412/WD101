@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
           <th class="th">Name</th>
           <th class="th">Email</th>
           <th class="th">Password</th>
-          <th class="th">Date of Birth</th>
-          <th class="th">Accepted terms</th>
+          <th class="th">Dob</th>
+          <th class="th">Accepted terms?</th>
         </tr>${rows}</table>`;
   };
 
